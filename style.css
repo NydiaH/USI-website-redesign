@@ -1,0 +1,108 @@
+
+.wrapper{
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0 auto;
+	width:90%;
+}
+li{
+	display:inline;
+	
+}
+.nav {	
+	font-size:2rem;
+	height:150px;
+	margin-bottom:20px;
+}
+
+.nav ul{
+	float:right;
+	margin-right:40px;
+	padding:20px;
+}
+.nav ul li{
+	padding:30px;
+}
+.nav img{
+    width:40%;
+	margin:auto;
+	padding:30px;
+}
+
+.hero img{
+	width:100%;
+	
+}
+.hero{
+	height:900px;
+	background: url(CMC8909-102.jpg);
+	background-size:cover;
+    background-repeat:no-repeat;
+    
+	
+}
+.hero .text{
+    position: relative;
+	top:760px;
+	text-align: center;
+	padding: 30px;
+	width:30%;
+    color:white;
+    border: 1px solid red;
+    background-color:rgba(255, 204, 204,0.5);
+    
+}
+
+
+.left{
+	color:black;
+	text-align: left;
+	float:left;
+	width:49%;
+	height:650px;
+    border-right:1px dashed black;
+    border-left: 1px solid black;
+    
+
+}
+
+.left img{
+	width:100%;
+	
+}
+.left .leftText{
+    padding:5%;
+}
+.right{
+	color:black;
+	text-align:center;
+	float:right;
+	width:49%;
+	height:650px;
+	border-right:1px solid black;
+    /* padding:10px; */
+    
+}
+
+.right img{
+	width:70%;
+}
+
+
+.footer{
+    display: flex;
+    clear:both;
+    justify-content:space-between;
+    height: 350px;
+    background-color: black;
+    color: white;
+   
+}
+.footer > div{
+    margin: 60px;
+}
+button{
+    padding:15px 23px;
+    background-color:lightgray;
+    border: 1px solid black;
+
+}
